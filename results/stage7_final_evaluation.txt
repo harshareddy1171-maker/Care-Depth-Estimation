@@ -1,0 +1,42 @@
+CARE-Depth Stage 7 - Final Evaluation
+======================================================================
+
+The Stage 6 CARE-Depth V2 results were evaluated across six hospital challenge scenarios.
+
+OVERALL RESULTS
+----------------------------------------------------------------------
+Average Baseline MAE : 0.312946 m
+Average CARE MAE     : 0.318997 m
+Average MAE change   : -0.006051 m
+
+Average Baseline RMSE: 0.838629 m
+Average CARE RMSE    : 0.851858 m
+Average RMSE change  : -0.013229 m
+
+Baseline Accuracy <= 10 cm: 45.9577%
+CARE Accuracy <= 10 cm    : 45.8127%
+Accuracy change            : -0.1450%
+
+Baseline Accuracy <= 25 cm: 62.7165%
+CARE Accuracy <= 25 cm    : 62.5386%
+Accuracy change            : -0.1779%
+
+Baseline coverage: 77.7955%
+CARE coverage    : 78.0323%
+Coverage change  : +0.2368%
+
+SCENARIO-LEVEL ANALYSIS
+----------------------------------------------------------------------
+CARE improved MAE in 0 of 6 scenarios.
+CARE had equal MAE in 0 of 6 scenarios.
+CARE worsened MAE in 6 of 6 scenarios.
+
+DETAILED RESULTS
+----------------------------------------------------------------------
+           scenario  baseline_MAE_m  CARE_MAE_m  baseline_RMSE_m  CARE_RMSE_m  baseline_relative_error  CARE_relative_error  baseline_accuracy_10cm_%  CARE_accuracy_10cm_%  baseline_accuracy_25cm_%  CARE_accuracy_25cm_%  baseline_coverage_%  CARE_coverage_%  MAE_change_m  RMSE_change_m  accuracy_10cm_change_%  accuracy_25cm_change_%  coverage_change_%
+             normal        0.321200    0.328102         0.842810     0.859259                 0.057141             0.058714                 45.671589             45.509819                 58.452289             58.265006            77.744922        77.998372     -0.006902      -0.016449               -0.161771               -0.187283           0.253451
+        low_texture        0.330029    0.339156         0.872091     0.892007                 0.058983             0.061068                 45.510256             45.309171                 58.190424             57.951132            77.887240        78.218685     -0.009127      -0.019916               -0.201085               -0.239292           0.331445
+illumination_change        0.325546    0.331782         0.842164     0.855277                 0.057216             0.058818                 45.663734             45.497761                 58.333464             58.148860            77.682747        77.943880     -0.006236      -0.013113               -0.165973               -0.184604           0.261133
+       sensor_noise        0.289604    0.293285         0.817957     0.825859                 0.051590             0.052511                 46.664959             46.582798                 72.501946             72.378135            77.843945        77.988151     -0.003681      -0.007902               -0.082161               -0.123810           0.144206
+  moving_pedestrian        0.318706    0.324511         0.838223     0.851016                 0.056572             0.058021                 45.807276             45.657834                 58.513229             58.341815            77.785677        78.026693     -0.005804      -0.012792               -0.149442               -0.171415           0.241016
+           combined        0.292591    0.297143         0.818527     0.827728                 0.051868             0.053045                 46.428396             46.318815                 70.307746             70.146781            77.828320        78.018164     -0.004552      -0.009201               -0.109581               -0.160964           0.189844

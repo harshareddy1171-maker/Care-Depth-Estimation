@@ -1,0 +1,12 @@
+CARE-Depth Stage 2 - Conventional Stereo Baseline
+============================================================
+Image width: 640
+Image height: 480
+Focal length: 520.00 pixels
+Baseline: 0.1200 m
+Valid depth coverage: 47.252930%
+MAE: 0.324566 m
+RMSE: 0.971609 m
+Relative error: 0.067502
+Accuracy <= 0.10 m: 65.698087%
+Accuracy <= 0.25 m: 81.562541%

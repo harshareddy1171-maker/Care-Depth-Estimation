@@ -1,0 +1,13 @@
+CARE-Depth Stage 3
+Hospital Challenge Scenario Generation
+============================================================
+
+Synthetic scenarios generated:
+1. Normal corridor
+2. Low-texture walls
+3. Illumination change
+4. Sensor noise
+5. Moving pedestrian
+6. Combined difficult condition
+
+These scenarios are controlled synthetic perturbations designed to evaluate depth-estimation robustness.
